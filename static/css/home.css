@@ -1,0 +1,223 @@
+/* ! Navbar Styles */
+
+header {
+    margin: 2rem 0;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-navbar .navbar__ul {
+    display: flex;
+    justify-content: space-between;
+  
+    gap: 1.5rem;
+  }
+  
+  .main-navbar .navbar__logo {
+    font-size: var(--logo-size);
+    font-weight: var(--big-weight);
+  }
+  
+  .main-navbar .navbar__ul .navbar__li {
+    display: block;
+  }
+  
+  header .navbar__logo {
+    color: var(--dark);
+    font-size: var(--logo-size);
+    font-weight: var(--big-weight);
+  }
+  
+  .btn {
+    padding: 0.6rem 1.875rem;
+    border-radius: 1.25rem;
+    border: 1.5px solid var(--black);
+    font-weight: var(--md-weight);
+    cursor: pointer;
+  }
+  
+  .white-btn {
+    color: var(--dark);
+    background: transparent;
+  }
+  
+  .black-btn {
+    color: var(--white);
+    background: var(--dark);
+  }
+  
+  /* ! End of Navbar Styles */
+  
+  /* ! First Banner Styles */
+  .banner-first {
+    padding: 3.5rem 3rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .banner__text,
+  .banner__image {
+    width: 100%;
+    padding: 0 auto;
+  }
+  
+  .banner__text h1 {
+    font-size: var(--banner);
+  }
+  
+  .banner__text h4 {
+    margin: 1rem 0;
+  }
+  
+  .banner__image img {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  
+  /* ! End of First Banner Styles */
+  
+  /* ! Test Section Styles */
+  
+  .test-section h3 {
+    color: var(--dark);
+    font-size: var(--title);
+    font-weight: var(--md-weight);
+  }
+  
+  .test-section span {
+    display: block;
+    width: 11rem;
+    height: 4px;
+    background-color: var(--yellow);
+  }
+  
+  .all_tests {
+    margin: 2rem 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    grid-template-columns: auto auto auto auto;
+  }
+  
+  .all-testes__card {
+    border-radius: 1rem;
+    background-color: var(--white);
+    text-align: center;
+    padding: 2rem 0;
+    cursor: pointer;
+  
+    transition: all 0.3s;
+  }
+  
+  .all-testes__card:hover {
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .test__title {
+    color: var(--dark);
+    margin: 0.5rem 0;
+    font-size: var(--md-text);
+    font-weight: 900;
+  }
+  
+  .test__subtitle {
+    color: var(--black);
+    font-weight: var(--sm-weight);
+  }
+  /* ! End of Test Section Styles */
+  
+  /* ! Recomendation Styles */
+  .recomendation-section {
+    padding: 3.5rem 3rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .recomendation__text,
+  .recomendation__image {
+    width: 100%;
+    padding: 0 auto;
+  }
+  
+  .recomendation__text h1 {
+    font-size: var(--sec-title);
+  }
+  
+  .recomendation__text h4 {
+    margin: 1rem 0;
+  }
+  
+  .recomendation__image img {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* ! End of Recomendation Styles */
+  
+  /* ! Latest Results Section Styles */
+  
+  .latest-results__section {
+    display: inline-flex;
+    gap: 2rem;
+  }
+  
+  .results-section__image {
+    display: block;
+    width: 90%;
+    padding: 2rem 2rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+  }
+  
+  .section-image__text {
+    color: var(--dark);
+    font-size: var(--sec-title);
+    margin-top: 2rem;
+  }
+  
+  .results-section__texts {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 2rem 2rem;
+  
+    overflow-x: scroll;
+  }
+  
+  .results_text {
+    margin-bottom: 1rem;
+    width: 34.8125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    border-bottom: 1px solid var(--dark-2, #333);
+  }
+  
+  /* ! Latest Results Section Styles */
+  
+  /* ! Footer Styles */
+  
+  footer {
+    margin-top: 5rem;
+    background-color: var(--white);
+    padding: 1rem 0;
+  }
+  
+  footer .container p {
+    font-weight: bolder;
+  }
+  
+  /* ! End of Footer Styles */
+  

@@ -1,0 +1,68 @@
+/* ! Main Styles */
+
+@font-face {
+  font-family: Poppins;
+  src: url("../fonts/Poppins-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+:root {
+  /* ** Colors ** */
+  --bg-main-color: #d3efea;
+  --bg-green: #eaf6ec;
+  --bg-red: #fbebec;
+  --bg-info: #e7fafe;
+  --bg-blue: #e0dcfe;
+
+  --white: #fff;
+  --dark: #111;
+  --light-dark: #333;
+  --black: #2d2a43;
+  --gray: #637381;
+  --ligt-gray: #8692a6;
+  --success: #28a745;
+  --green: #45c486;
+  --orange: #fd9979;
+
+  --yellow: #ffd622;
+
+  /* ** Font Sizes ** */
+  --logo-size: 1.875rem;
+  --banner: 2.625rem;
+  --sec-title: 2rem;
+  --title: 1.5rem;
+  --md-text: 1.125rem;
+  --sm-text: 0.75rem;
+
+  /* ** Font Weight ** */
+  --big-weight: 900;
+  --md-weight: 700;
+  --normal-weight: 600;
+
+  /* ** Line Height ** */
+  --big-line: 3.25rem;
+  --sec-height: 2.25rem;
+  --normal-height: 1.25rem;
+}
+
+body {
+  background-color: var(--bg-main-color);
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+section {
+  margin: 2rem 0;
+}
+
+/* ! End of Main Styles */
